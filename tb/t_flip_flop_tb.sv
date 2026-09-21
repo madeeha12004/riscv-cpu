@@ -17,23 +17,22 @@ module t_flip_flop_tb;
         clk = 0;
         t = 0;
 
-        // Hold
         #10;
         t = 0;
 
-        // Toggle
+        
         #10;
         t = 1;
 
-        // Toggle again
+       
         #10;
         t = 1;
 
-        // Toggle again
+        
         #10;
         t = 1;
 
-        // Hold
+        
         #10;
         t = 0;
 
